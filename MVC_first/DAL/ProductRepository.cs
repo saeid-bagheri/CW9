@@ -15,7 +15,6 @@ namespace MVC_first.DAL
             new Product { Id = 7, Name = "Iphone 11", Color = "#FFD700" } ,
             new Product { Id = 8, Name = "Iphone 12", Color = "#006400" } ,
             new Product { Id = 9, Name = "Iphone 12 Pro", Color = "#4682B4" } ,
-            new Product { Id = 10, Name = "Iphone 13", Color = "#FF0000" } ,
         };
 
         public void AddProduct(Product product)
