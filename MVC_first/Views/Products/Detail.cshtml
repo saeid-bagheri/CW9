@@ -1,0 +1,23 @@
+﻿@model Product
+
+<div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-3 border-1">
+                <span>ID</span>
+                <div>@Model.Id</div>
+            </div>
+            <div class="col-3 border-1">
+                <span>Name</span>
+                <div>@Model.Name</div>
+            </div>
+            <div class="col-3 border-1">
+                <span>Color</span>
+                <div>@Model.Color</div>
+            </div>
+            <div class="col-3 border-1 my-1">
+                <a class="btn btn-warning" asp-controller="Products" asp-action="List">back</a>
+            </div>
+        </div>
+    </div>
+</div>
